@@ -1,5 +1,39 @@
-body {
-    background-color: aqua;
-    color: black;
 
+body{
+    background-color: rgb(31, 30, 56);
+    color: rgb(255, 255, 255);
+}
+
+.calculadora{
+    background: rgb(104, 106, 122);
+    padding: 8px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.display_calc{
+    background: black;
+   text-align: center;
+}
+
+#resultado{
+    padding: 2px;
+    background: rgb(30, 29, 92);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10%;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    margin:3px;
+    border-radius: 20%;
+    background-color: rgb(170, 170, 170);
+}
+
+#bnt_igual{
+    background-color: rgb(43, 33, 136);
+    color: white;
 }
